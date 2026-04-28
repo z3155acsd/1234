@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>我的第一個網頁</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      margin: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>歡迎來到我的網頁！</h1>
+  <p>這是一個簡單的 HTML 範例。</p>
+  <button onclick="showMessage()">點我一下</button>
+
+  <script>
+    function showMessage() {
+      alert("你好！這是 JavaScript 的提示訊息。");
+    }
+  </script>
+</body>
+</html>
 
